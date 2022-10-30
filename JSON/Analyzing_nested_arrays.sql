@@ -23,7 +23,7 @@ INSERT INTO json_tab VALUES
 
 -- Query Table as is
 
-select * from json_tab
+select * from json_tab;
 
 -- Query Table by flattening the arrays using JSON_TO_ARRAY
 
