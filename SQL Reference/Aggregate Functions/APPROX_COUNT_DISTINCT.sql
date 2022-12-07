@@ -1,4 +1,3 @@
-
 /* Learn about use cases with the APPROX_COUNT_DISTINCT function \
 An aggregate function that returns the total of non-NULL distinct values in a data set.
  - Aggregate Function
