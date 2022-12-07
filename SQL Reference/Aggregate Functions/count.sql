@@ -11,7 +11,7 @@ create database if not exists documentation_s2;
 use documentation_s2;
 DROP TABLE IF EXISTS equipment;
 
--- Create Table
+-- Create Table and Insert data
 CREATE TABLE equipment(
 equip_id INT,
 equip_type VARCHAR(50),
