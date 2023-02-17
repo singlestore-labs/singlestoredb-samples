@@ -5,7 +5,7 @@ In this example, we’ll demonstrate how we use the dot_product function (for co
 
 **Step 1**: Signup for a free trial account at https://portal.singlestore.com/ 
 
-**Step 2**: Create a workspace (S00 is enough). 
+**Step 2**: Create a workspace (S00 is enough).
 
 **Step 3**: Create a database called image_recognition in the SQL Editor
 
