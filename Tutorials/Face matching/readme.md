@@ -9,7 +9,7 @@ In this example, we’ll demonstrate how we use the dot_product function (for co
 
 **Step 3**: Create a database called image_recognition in the SQL Editor
 
-```sql Create database image_recognition; ```
+```Create database image_recognition; ```
 
 **Step 4**: Go to ‘connect’ on your workspace in the portal and copy the workspace URL, your username and password to connect to your database using sqlalchemy. 
 
@@ -17,12 +17,10 @@ In this example, we’ll demonstrate how we use the dot_product function (for co
 
 **Step 5**: Use the notebook face_recognition.ipynb in this repository
 
-**Warning**
-Make sure to change the following variables to your workspace:
+:exclamation: Make sure to change the following variables to your workspace:
 
+```
 UserName='<Username usually admin>'
 Password='<Password for that user>'
 DatabaseName='image_recognition'
-URL='<Host that you copied above>:3306'
-db_connection_str = "mysql+pymysql://"+UserName+":"+Password+"@"+URL+"/"+DatabaseName
-db_connection = create_engine(db_connection_str)
+URL='<Host that you copied above>:3306'```
