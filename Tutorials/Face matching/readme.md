@@ -9,9 +9,10 @@ Step 2: Create a workspace (S00 is enough).
 
 Step 3: Create a database called image_recognition in the SQL Editor
 
-Create database image_recognition;
-
+```sql Create database image_recognition; ```
 
 Step 4: Go to ‘connect’ on your workspace in the portal and copy the workspace URL, your username and password to connect to your database using sqlalchemy. 
+
+![Connect](https://user-images.githubusercontent.com/8846480/219804159-9a970958-6beb-4b96-9497-20418dbe6801.png)
 
 Step 5: Use the notebook face_recognition.ipynb in this repository
