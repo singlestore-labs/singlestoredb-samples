@@ -17,6 +17,7 @@ In this example, we’ll demonstrate how we use the dot_product function (for co
 
 **Step 5**: Use the notebook face_recognition.ipynb in this repository
 
+:exclamation: Importing the data in a small workspace might take 15-20 minutes
 :exclamation: Make sure to change the following variables to your workspace:
 
 ```
