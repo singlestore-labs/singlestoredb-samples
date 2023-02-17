@@ -1,18 +1,18 @@
-## **Image Matching in SQL with SingleStoreDB**
+# **Image Matching in SQL with SingleStoreDB**
 
 In this example, we’ll demonstrate how we use the dot_product function (for cosine similarity) to find a matching image of a celebrity from among 7000 records in just 3 milliseconds! Vector functions in SingleStoreDB make it possible to solve AI problems, including face matching, product photo matching, object recognition, text similarity matching and sentiment analysis.
 
 
-Step 1: Signup for a free trial account at https://portal.singlestore.com/ 
+**Step 1**: Signup for a free trial account at https://portal.singlestore.com/ 
 
-Step 2: Create a workspace (S00 is enough). 
+**Step 2**: Create a workspace (S00 is enough). 
 
-Step 3: Create a database called image_recognition in the SQL Editor
+**Step 3**: Create a database called image_recognition in the SQL Editor
 
 ```sql Create database image_recognition; ```
 
-Step 4: Go to ‘connect’ on your workspace in the portal and copy the workspace URL, your username and password to connect to your database using sqlalchemy. 
+**Step 4**: Go to ‘connect’ on your workspace in the portal and copy the workspace URL, your username and password to connect to your database using sqlalchemy. 
 
 ![Connect](https://user-images.githubusercontent.com/8846480/219804159-9a970958-6beb-4b96-9497-20418dbe6801.png)
 
-Step 5: Use the notebook face_recognition.ipynb in this repository
+**Step 5**: Use the notebook face_recognition.ipynb in this repository
