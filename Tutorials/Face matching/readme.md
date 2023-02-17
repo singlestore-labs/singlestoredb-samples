@@ -23,4 +23,5 @@ In this example, we’ll demonstrate how we use the dot_product function (for co
 UserName='<Username usually admin>'
 Password='<Password for that user>'
 DatabaseName='image_recognition'
-URL='<Host that you copied above>:3306'```
+URL='<Host that you copied above>:3306'
+```
