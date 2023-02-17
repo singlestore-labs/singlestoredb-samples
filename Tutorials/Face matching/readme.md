@@ -16,3 +16,13 @@ In this example, we’ll demonstrate how we use the dot_product function (for co
 ![Connect](https://user-images.githubusercontent.com/8846480/219804159-9a970958-6beb-4b96-9497-20418dbe6801.png)
 
 **Step 5**: Use the notebook face_recognition.ipynb in this repository
+
+**Warning**
+Make sure to change the following variables to your workspace:
+
+UserName='<Username usually admin>'
+Password='<Password for that user>'
+DatabaseName='image_recognition'
+URL='<Host that you copied above>:3306'
+db_connection_str = "mysql+pymysql://"+UserName+":"+Password+"@"+URL+"/"+DatabaseName
+db_connection = create_engine(db_connection_str)
