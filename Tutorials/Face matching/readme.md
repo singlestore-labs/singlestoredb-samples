@@ -2,6 +2,7 @@
 
 In this example, we’ll demonstrate how we use the dot_product function (for cosine similarity) to find a matching image of a celebrity from among 7000 records in just 3 milliseconds! Vector functions in SingleStoreDB make it possible to solve AI problems, including face matching, product photo matching, object recognition, text similarity matching and sentiment analysis.
 
+For additional details about it, check our [blog post](https://www.singlestore.com/blog/using-vector-functions-image-matching-sql/)
 
 **Step 1**: Signup for a free trial account at https://portal.singlestore.com/ 
 
